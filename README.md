@@ -26,6 +26,7 @@ Example
 * The plugin can then be added into your javascript like so
 ```javascript
 $('.myContainer').TagsInput({
+  initialTags: ['c#', 'python', 'jQuery'], // allow initialization of tags
   tagInputPlaceholder:'eg. python',
   tagHiddenInput: $('.inputTags'),
   tagContainerBorderColor: '#d3d3d3',
